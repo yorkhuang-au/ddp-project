@@ -14,7 +14,8 @@ shinyUI(pageWithSidebar(
     sliderInput('height', 'Height (cm): ' , 100, min =3, max =180),
     h4('Help'),
     div("Select gender, age and height, your kid's wegiht will be calculated on the mail panel."),
-    a("Source code is on github", href="https://github.com/yorkhuang-au/ddp-project")
+    a("Source code is on github https://github.com/yorkhuang-au/ddp-project", 
+      href="https://github.com/yorkhuang-au/ddp-project")
   ),
   mainPanel(
     h3(textOutput('WeightMessage'))
